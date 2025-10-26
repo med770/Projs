@@ -1,0 +1,114 @@
+
+*{
+    margin: 0 ; 
+    padding: 0; 
+    
+}
+
+.container{ 
+   border-radius: 4px;
+   border: solid 2px gainsboro ;  
+   width: 80% ; 
+   margin: auto; 
+   margin-top: 20px; 
+   padding: 20px;
+} 
+.container h2{
+    font-weight:300 ; 
+    font-family:sans-serif; 
+    margin-bottom: 10px ; 
+    color: rgba(0, 0, 0, 0.701);
+}
+.container .pAppend{
+    font-family: system-ui;
+    font-size:x-small ; 
+    color: #26a69a ; 
+    font-weight:500; 
+    margin-top:3px ;  
+    display: none;
+}
+
+.container .task{
+   border:none;
+   margin-bottom: 7px ;  
+   margin-top: 8px;
+   font-size: small;   
+   font-weight: 700; 
+   color: black ;
+} 
+ .container .task:focus{ 
+    outline: none ; 
+    font-weight:500 ; 
+    
+ } 
+
+
+.container #btn{
+    border: none ; 
+    border-radius: 4px; 
+    margin-top: 10px; 
+    margin-bottom: 40px ;
+    background-color: #26a69a;
+    padding: 10px 20px;  
+    font-size: x-small; 
+    font-weight: 600;
+    color: white ; 
+    cursor: pointer;  
+}
+.container #btn:hover{
+       background-color: black ; 
+       color:white  
+}
+
+.task2 h2{
+    font-family:sans-serif  ; 
+    color: rgb(0, 0, 0)  ; 
+    font-weight: 500 ; 
+    margin-top: 20px ; 
+    margin-bottom: 0 ;
+}
+
+.task2 p{
+    margin-top: 2px ; 
+    margin-bottom: 3px;
+    font-size: x-small ; 
+    color:darkturquoise ; 
+    font-weight: 400; 
+
+} 
+.task2 #search{
+    margin-top: 8px ; 
+    border: none ; 
+    margin-bottom: 7px ; 
+    font-family:system-ui , 
+
+}
+.task2 #search:focus{
+    outline: none ;
+}
+
+
+.task2 #pSerch {
+    display: none ; 
+    margin-bottom: 2px;
+}
+
+#delete{
+    margin-top: 30px ;
+    background: black ; 
+    border: none ; 
+    border-radius: 4px ; 
+    color: white ; 
+    padding: 10px 15px ; 
+    word-spacing: 2px  ;
+    letter-spacing: 1px; 
+    cursor:pointer; 
+}
+#delete:hover{
+    letter-spacing: 3px ; 
+    background-color: rgba(0, 0, 0, 0.817) ; 
+    padding: 10px 10px ; 
+
+}
+
+
