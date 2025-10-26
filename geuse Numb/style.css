@@ -1,0 +1,49 @@
+
+
+*{
+    font-family: system-ui ;
+    font-weight: 500; 
+    margin-left: 10px;
+} 
+
+h1{
+    margin-top: 3px ;  
+    font-size: 40px ; 
+    letter-spacing: 5px ;
+} 
+p{
+    margin-bottom: 20px ; 
+    font-size: small ;
+} 
+
+input{
+    padding: 6px ;  
+    border-radius: 3px ;     
+    border-color: black;
+}  
+
+ input:focus{
+    outline-color: rgb(92, 215, 217) ; 
+    border: 1px solid rgb(87, 237, 240); 
+} 
+
+button{
+    width: 90px ;
+    padding: 5px ;
+    background-color: #fff ;  
+    border: 2px solid rgba(128, 128, 128, 0.555);
+    border-radius: 4px ; 
+    margin-left: 0 ; 
+    font-weight: 800 ; 
+    font-size: small;
+    color: gray ; 
+    cursor: pointer ; 
+    transition: 0.5s;
+} 
+
+button:hover{
+    color: #fff ;  
+    background-color: rgb(45, 212, 125);
+     width: 100px ;
+    transition: 0.7s ; 
+}
