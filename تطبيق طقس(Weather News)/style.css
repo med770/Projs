@@ -1,0 +1,110 @@
+
+body{
+    background:linear-gradient(to right , #83a4d4 , #b6fbff); 
+    margin: 0; 
+    padding: 0 ;
+}
+
+
+.container{ 
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.2) ;
+    border-radius: 10px ;
+    margin-top: 60px ; 
+    padding: 20px ; 
+    text-align: center ; 
+    border: 1px solid rgba(255, 255, 255, 0.107) ; 
+    width: 70% ; 
+} 
+
+input{
+    padding: 7px ; 
+    width: 55% ; 
+    border: none ;
+    border-radius: 5px ;
+    outline: none ; 
+    padding-left: 10px ;
+} 
+
+input:hover{
+   padding: 9px ;  
+} 
+
+.container button{
+    display: block ; 
+    width: 59% ; 
+    margin-top: 10px ;  
+    position: relative; 
+    left: 90px ;
+    text-transform: capitalize ; 
+    padding: 6px ;  
+    border: none ; 
+    border-radius: 5px ; 
+    background-color: rgba(36, 64, 95, 0.934) ; 
+    color: #fff ; 
+    cursor: pointer ;
+} 
+
+.container button:hover{
+     letter-spacing: 1px ; 
+     background-color: rgba(7, 47, 92, 0.934) ; 
+     font-weight: 500;
+} 
+
+.container div h2{
+    font-family: system-ui ; 
+    font-weight: 500 ; 
+    font-size: xx-large;
+    text-transform: capitalize ;
+} 
+
+.container div span{
+    margin-right: 5px ;  
+    margin-left: 3px ;
+    margin-top: 3px;
+    font-size:xx-large ;     
+    position: relative ;
+    bottom: 20px ; 
+} 
+/* 
+.container p{
+    margin-top: 3px ; 
+    font-size: large ; 
+    text-transform: capitalize ;
+    font-family: system-ui ; 
+    font-weight: 400 ; 
+    position: relative ; 
+    bottom: 20px ; 
+} */
+
+
+#table{
+   display: grid ;
+   margin: auto ;
+   justify-content: center ;
+   grid-template-columns: repeat(2,1fr);  
+   grid-template-rows: repeat(4,1fr);
+   border: 2px solid rgba(7, 47, 92, 0.934) ;
+   width: 60% ; 
+   padding: 20px; 
+   padding-top: 5px; 
+   padding-bottom: 5px;
+} 
+#table p{  
+    margin-top: 2px;
+    position: relative; 
+    top: 1px ; 
+    border: 1px solid #0f8288 ; 
+    width: 140px;  
+    border-right: none; 
+    padding: 5px;
+    /* border:1px solid linear-gradient(to right , #83a4d4 , #0f8288);    */
+    margin-bottom: 5px; 
+    font-family: system-ui ;
+}
+#table #res{
+    color: #0808a6 ;
+
+} 
+
+
