@@ -1,0 +1,36 @@
+
+body{
+    background-color: #123;
+}
+*{
+    font-family: system-ui ; 
+    font-weight: 500;
+}
+
+.container{
+    border: 1px solid black ;  
+    background-color: white ;
+    margin: auto;  
+    width:70% ;
+    text-align: center;
+    position: relative; 
+    top: 30px ; 
+    padding: 10px ; 
+    
+} 
+
+.container #plinese  button{
+    cursor: pointer ;  
+    padding: 5px ; 
+    margin-bottom: 5px ; 
+    margin-right: 3px ;
+} 
+
+.container #choose button{
+    padding: 5px ; 
+    margin: 10px ; 
+    margin-right: 7px ;
+} 
+.hidden{
+    display: none ;
+}
